@@ -1,12 +1,14 @@
 .match {
   padding: 3px;
-  width: 80%;
+  width: 100%;
   margin: auto;
   display: flex;
   border: 1px solid #ccc;
   border-radius: 10px;
   background-color: #f9f9f9;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transform: scale(0.60);
+
 }
 .match {
   background: #37003c;
@@ -69,4 +71,17 @@ img {
   text-align: center;
   align-items: center;
   margin: auto;
+}
+
+.nav-items{
+  list-style: none;
+  display: flex;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-items > li{
+  padding: 10px;
 }
