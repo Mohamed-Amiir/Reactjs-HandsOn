@@ -4,18 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script
-      crossorigin
-      src="http://unpkg.com/react@17/umd/react.development.js"
+      src="./node_modules/react/umd/react.development.js"
+      type="modules"
     ></script>
     <script
-      crossorigin
-      src="http://unpkg.com/react-dom@17/umd/react-dom.development.js"
+      src="./node_modules/react-dom/umd/react-dom.development.js"
+      type="modules"
     ></script>
-    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script
+      src="./node_modules/babel-standalone/babel.min.js"
+      type="modules"
+    ></script>
+    <!-- Add any other scripts or stylesheets you need -->
     <link rel="stylesheet" href="index.css" />
     <title>Document</title>
   </head>
-  <body style="background-color: black;color: aliceblue;">
+  <body
+    style="background-color: rgb(33, 33, 33); color: aliceblue; margin: 4% 10%"
+  >
     <div id="root"></div>
     <div id="content"></div>
     <script src="index.js" type="text/babel"></script>
