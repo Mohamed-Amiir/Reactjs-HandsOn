@@ -1,0 +1,155 @@
+body {
+  background-color: rgb(33, 33, 33);
+  vertical-align: middle;
+  color: white;
+  padding-top: 20%;
+}
+.info {
+  text-align: center;
+  align-items: center;
+  vertical-align: middle;
+}
+.card img {
+  width: 500px;
+  border-radius: 5%;
+}
+.contact {
+  justify-content: space-between;
+  align-items: center;
+}
+.contact-list > li {
+  padding: 30px;
+}
+.contact ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  vertical-align: middle;
+}
+.gm-button,
+.li-button {
+  width: 50px;
+  display: inline-block;
+  background-color: white;
+  color: black;
+  padding: 0.75rem 2.5rem;
+  margin: auto;
+  font-weight: var(--font-semi);
+  border-radius: 0.5rem;
+  transition: 0.3s;
+}
+.li-button{
+  background-color: rgb(8, 105, 233);
+  color: white;
+}
+.card {
+  vertical-align: middle;
+  width: 500px;
+  background-color: rgb(25, 25, 25);
+  border-radius: 10px;
+  margin: auto;
+  border-radius: 5%;
+}
+.container{
+  padding:  5%;
+}
+/* .match {
+  padding: 3px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transform: scale(0.6);
+}
+.match {
+  background: #37003c;
+  color: aliceblue;
+}
+.match:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.match,
+.home,
+.away,
+.vs {
+  display: flex;
+}
+
+.vs:hover {
+  color: red;
+}
+
+.team-pl img,
+.vs {
+  transform: scale(0.86);
+}
+
+.team p,
+.team-name p,
+.vs {
+  display: inline;
+  vertical-align: middle;
+  display: flex;
+}
+
+img {
+  display: inline;
+  vertical-align: middle;
+  height: 50px;
+}
+
+.team-name {
+  width: 70%;
+  vertical-align: middle;
+  font-family: system-ui;
+  font: message-box;
+}
+
+.team,
+.team-pl {
+  width: 30%;
+}
+
+.home,
+.away {
+  width: 40%;
+}
+
+.pl {
+  text-align: center;
+  align-items: center;
+  margin: auto;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(25, 25, 25);
+  color: white;
+}
+.nav-items > li {
+  padding: 10px;
+}
+.nav h1{
+  color: #61DAFB;
+}
+.content ol{
+  list-style:disc;
+}
+.content{
+background-image: url("./logo512.png");
+background-size: 40%;
+background-repeat: no-repeat;
+background-position-x:right ;
+background-position-y:bottom ;
+} */
