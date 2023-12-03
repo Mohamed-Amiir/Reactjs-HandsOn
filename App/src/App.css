@@ -53,6 +53,39 @@ body {
 .container{
   padding:  5%;
 }
+.icon {
+  color: rgb(31, 202, 31);
+  position: relative; /* Adjust positioning */
+}
+.footer {  
+  /* box-shadow: 0 1px 8px rgba(228, 230, 233, 0.15); */
+  color: #fff;
+  text-align: center;
+  /* font-weight: var(--font-semi); */
+  padding: 2rem 0;
+}
+
+/* .footer__title {
+  font-size: 2rem;
+  margin-bottom: var(--mb-4);
+} */
+
+
+/* .footer__icon {
+  color: #8e2222;
+  margin: 0 var(--mb-2);
+} */
+
+
+.footer__social-icon {
+  font-size: 200%;
+  margin-left: 25px;
+  color: white;
+}
+
+.footer__social-icon:hover {
+  color: rgb(47, 231, 188);/**/
+}
 /* .match {
   padding: 3px;
   width: 100%;
