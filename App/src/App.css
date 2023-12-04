@@ -1,10 +1,42 @@
-body {
-  background-color: rgb(33, 33, 33);
-  vertical-align: middle;
-  color: white;
-  padding-top: 20%;
+*{
+  box-sizing: border-box;
 }
-.info {
+
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Navbar Styles */
+.nav {
+  height: 70px;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 20px 36px;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.App-logo {
+  width: 40px; /* Adjust the width as needed */
+  height: auto;
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: cereal;
+  color: #eb2323;
+}
+
+
+
+
+/* .info {
   text-align: center;
   align-items: center;
   vertical-align: middle;
@@ -56,14 +88,14 @@ body {
 .icon {
   color: rgb(31, 202, 31);
   position: relative; /* Adjust positioning */
-}
-.footer {  
-  /* box-shadow: 0 1px 8px rgba(228, 230, 233, 0.15); */
+/*}*/
+/* .footer {  
+  box-shadow: 0 1px 8px rgba(228, 230, 233, 0.15); 
   color: #fff;
   text-align: center;
-  /* font-weight: var(--font-semi); */
+  font-weight: var(--font-semi); 
   padding: 2rem 0;
-}
+}  */
 
 /* .footer__title {
   font-size: 2rem;
@@ -77,89 +109,15 @@ body {
 } */
 
 
-.footer__social-icon {
+/* .footer__social-icon {
   font-size: 200%;
   margin-left: 25px;
   color: white;
 }
-
 .footer__social-icon:hover {
-  color: rgb(47, 231, 188);/**/
-}
-/* .match {
-  padding: 3px;
-  width: 100%;
-  margin: auto;
-  display: flex;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  background-color: #f9f9f9;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  transform: scale(0.6);
-}
-.match {
-  background: #37003c;
-  color: aliceblue;
-}
-.match:hover {
-  transform: scale(1.03);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-.match,
-.home,
-.away,
-.vs {
-  display: flex;
-}
-
-.vs:hover {
-  color: red;
-}
-
-.team-pl img,
-.vs {
-  transform: scale(0.86);
-}
-
-.team p,
-.team-name p,
-.vs {
-  display: inline;
-  vertical-align: middle;
-  display: flex;
-}
-
-img {
-  display: inline;
-  vertical-align: middle;
-  height: 50px;
-}
-
-.team-name {
-  width: 70%;
-  vertical-align: middle;
-  font-family: system-ui;
-  font: message-box;
-}
-
-.team,
-.team-pl {
-  width: 30%;
-}
-
-.home,
-.away {
-  width: 40%;
-}
-
-.pl {
-  text-align: center;
-  align-items: center;
-  margin: auto;
-}
-
-.nav-items {
+  color: rgb(47, 231, 188);
+} */
+/* .nav-items {
   list-style: none;
   display: flex;
 }
@@ -178,8 +136,8 @@ img {
 }
 .content ol{
   list-style:disc;
-}
-.content{
+} */
+/*.content{
 background-image: url("./logo512.png");
 background-size: 40%;
 background-repeat: no-repeat;
