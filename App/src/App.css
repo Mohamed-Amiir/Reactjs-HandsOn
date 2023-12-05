@@ -1,11 +1,11 @@
-*{
+* {
   box-sizing: border-box;
 }
 
 /* Global Styles */
 body {
   margin: 0;
-  font-family: 'Arial', sans-serif;
+  font-family: "Poppins",sans-serif;
 }
 
 /* Navbar Styles */
@@ -15,8 +15,8 @@ body {
   /* justify-content: space-between; */
   align-items: center;
   padding: 20px 36px;
-  background-color: #f8f8f8;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
 
 .App-logo {
@@ -25,7 +25,7 @@ body {
   margin-right: 10px; /* Adjust the margin as needed */
 }
 
-h1 {
+.nav h1 {
   margin: 0;
   font-size: 24px;
   font-weight: bold;
@@ -33,9 +33,20 @@ h1 {
   color: #eb2323;
 }
 
-
-
-
+.static-content {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+}
+.content-img {
+  max-width: 400px;
+  align-self: center;
+}
+.static-content h1
+{
+margin-bottom: 16px;
+  /* align-self: center; */
+}
 /* .info {
   text-align: center;
   align-items: center;
@@ -102,12 +113,10 @@ h1 {
   margin-bottom: var(--mb-4);
 } */
 
-
 /* .footer__icon {
   color: #8e2222;
   margin: 0 var(--mb-2);
 } */
-
 
 /* .footer__social-icon {
   font-size: 200%;

@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Laptop",
+    "status": "availabel",
+    "image": "./Laptop.png",
+    "description": "Lenovo ideapad g3",
+    "price": 20000
+  },
+  {
+    "name": "Pants",
+    "status": "soldout",
+    "image": "./pants.png",
+    "description": "pants for men XL",
+    "price": 20000
+  },
+  {
+    "name": "Smart Phone",
+    "status": "soldout",
+    "image": "./phone.png",
+    "description": "Realme 6i",
+    "price": 3000
+  },
+  {
+    "name": "Sofa",
+    "status": "availabel",
+    "image": "./sofa.png",
+    "description": "Modern sofa with 6 chairs",
+    "price": 3000
+  },
+  {
+    "name": "Tshirt",
+    "status": "availabel",
+    "image": "./tshirt.png",
+    "description": "tshirt for men XL",
+    "price": 150
+  }
+]
