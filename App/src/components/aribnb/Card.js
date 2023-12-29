@@ -4,18 +4,19 @@ import star from "./images/star.png";
 export default function Card() {
   return (
     <div class="card">
-      <img src={image} alt="star" class="product-image" />
+      <div class="product-image-container">
+        <img src={image} alt="star" class="product-image" />
+      </div>
       <div class="product-details">
         <div class="rating">
           <img src={star} alt="star" class="star-image" />
           <span class="star-count">4.5</span>
           <span class="product-status">Valid</span>
         </div>
-       
+        <h3 class="product-name">Product Name</h3>
+        <p class="product-description">Product description goes here...</p>
+        <p class="product-price">$19.99</p>
       </div>
-      <h3 class="product-name">Product Name</h3>
-      <p class="product-description">Product description goes here...</p>
-      <p class="product-price">$19.99</p>
     </div>
   );
 }

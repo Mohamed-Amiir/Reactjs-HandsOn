@@ -6,6 +6,7 @@
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
+  background-color: black;
 }
 
 /* Navbar Styles */
@@ -153,56 +154,66 @@ background-position-x:right ;
 background-position-y:bottom ;
 } */
 .card {
-  border: 1px solid #ddd;
-  padding: 15px;
-  margin: 10px;
-  display: flex; /* Use flexbox for layout */
-  flex-direction: column; /* Stack items vertically */
-  align-items: center; /* Center items horizontally */
-  text-align: center;
-  width: 200px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #ccc;
   border-radius: 8px;
+  overflow: hidden;
+  width: 200px; /* Set the desired width for your card */
+  transition: transform 0.2s ease-in-out; /* Add a smooth transition effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Optional: Add a subtle box shadow */
+}
+.card:hover {
+  transform: scale(1.05); /* Scale the card on hover */
+}
+.product-image-container {
+  overflow: hidden;
 }
 
 .product-image {
-  max-width: 100%;
-  height: 100%;
-  margin-bottom: 10px;
-  object-fit: cover;
-
+  width: 100%;
+  display: block;
+  border-bottom: 1px solid #ccc; /* Optional: Add a border at the bottom of the image */
 }
 
 .product-details {
+  padding: 16px; /* Adjust the padding as needed */
+  background-color: white;
+}
+
+.rating {
   display: flex;
-  justify-content: space-between;
-  width: 100%;
-  margin-bottom: 10px;
+  align-items: center;
 }
 
 .star-image {
-  width: 15px; /* Adjust the width of the star image */
-  height: 15px; /* Adjust the height of the star image */
-  margin-right: 5px; /* Add margin for spacing */
+  width: 16px; /* Set the desired width for the star image */
+  margin-right: 4px; /* Optional: Add spacing between star image and count */
+}
+
+.star-count {
+  font-weight: bold; /* Optional: Make the star count bold */
 }
 
 .product-status {
-  color: #19df89;
-  padding-left: 115px;
+  margin-left: auto; /* Push the product status to the right */
+  color: green; /* Set the color for the product status */
   font-weight: bold;
 }
 
 .product-name {
-  margin: 0;
-  color: #333;
+  margin-top: 8px; /* Add spacing above the product name */
+  font-size: 18px; /* Set the desired font size for the product name */
 }
 
 .product-description {
-  color: #555;
+  color: #555; /* Set the color for the product description */
 }
 
 .product-price {
-  color: #e44d26;
-  font-weight: bold;
+  text-align: center; /* Center the product price */
+  color: #e44d26; /* Set the color for the product price */
+  font-weight: bold; /* Optional: Make the product price bold */
 }
