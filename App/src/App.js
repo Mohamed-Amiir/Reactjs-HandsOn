@@ -1,8 +1,8 @@
 import "./App.css";
 import React from "react";
-// import Navbar from "./components/aribnb/Navbar";
-// import StaticContent from "./components/aribnb/StaticContent";
-// import DynamicContent from "./components/aribnb/DynamicContent";
+import Navbar from "./components/aribnb/Navbar";
+import StaticContent from "./components/aribnb/StaticContent";
+import DynamicContent from "./components/aribnb/DynamicContent";
 import Card from "./components/aribnb/Card"
 // import Header from "./components/Header"
 // import Content from "./components/Content";
@@ -15,7 +15,9 @@ import Card from "./components/aribnb/Card"
 function App() {
   return (
     <div>
-      <Card />
+      <Navbar />
+      <StaticContent/>
+      <DynamicContent/>
       
     </div>
   );

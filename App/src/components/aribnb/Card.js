@@ -1,21 +1,20 @@
 import React from "react";
-import image from "./images/_af49ea8e-1cfe-491f-b568-6888c48f7f93.jpeg";
-import star from "./images/star.png";
-export default function Card() {
+
+export default function Card({ image, star, name, description, price }) {
   return (
-    <div class="card">
-      <div class="product-image-container">
-        <img src={image} alt="star" class="product-image" />
+    <div className="card">
+      <div className="product-image-container">
+        <img src={image} alt="productImage" className="product-image" />
       </div>
-      <div class="product-details">
-        <div class="rating">
-          <img src={star} alt="star" class="star-image" />
-          <span class="star-count">4.5</span>
-          <span class="product-status">Valid</span>
+      <div className="product-details">
+        <div className="rating">
+          <img src={star} alt="star" className="star-image" />
+          <span className="star-count">4.5</span>
+          <span className="product-status">Valid</span>
         </div>
-        <h3 class="product-name">Product Name</h3>
-        <p class="product-description">Product description goes here...</p>
-        <p class="product-price">$19.99</p>
+        <h3 className="product-name">{name}</h3>
+        <p className="product-description">{description}</p>
+        <p className="product-price">{price}</p>
       </div>
     </div>
   );

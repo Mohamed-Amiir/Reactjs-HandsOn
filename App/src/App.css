@@ -6,7 +6,6 @@
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
-  background-color: black;
 }
 
 /* Navbar Styles */
@@ -216,4 +215,9 @@ background-position-y:bottom ;
   text-align: center; /* Center the product price */
   color: #e44d26; /* Set the color for the product price */
   font-weight: bold; /* Optional: Make the product price bold */
+}
+.dynamic-content {
+  display: flex;
+  flex-direction: row; /* Display cards horizontally */
+  flex-wrap: wrap; /* Optional: Allow cards to wrap to the next line if the container is too small */
 }
