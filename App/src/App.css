@@ -39,8 +39,12 @@ body {
   padding: 0px 20px;
 }
 .content-img {
-  max-width: 400px;
-  align-self: center;
+    width: fit-content;
+    align-self: center;
+    scale: .6;
+}
+.content-header{
+  font-size: 250%;
 }
 .static-content h1 {
   margin-bottom: 16px;
@@ -216,8 +220,30 @@ background-position-y:bottom ;
   color: #e44d26; /* Set the color for the product price */
   font-weight: bold; /* Optional: Make the product price bold */
 }
-.dynamic-content {
-  display: flex;
-  flex-direction: row; /* Display cards horizontally */
-  flex-wrap: wrap; /* Optional: Allow cards to wrap to the next line if the container is too small */
+.slideshow-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
 }
