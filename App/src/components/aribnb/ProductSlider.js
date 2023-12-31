@@ -57,6 +57,27 @@ const ProductSlider = () => {
       description: "Description 2",
       price: "$29.99",
     },
+    {
+      image: Pimage,
+      star: Rstar,
+      name: "Product 8",
+      description: "Description 2",
+      price: "$29.99",
+    },
+    {
+      image: Pimage,
+      star: Rstar,
+      name: "Product 9",
+      description: "Description 2",
+      price: "$29.99",
+    },
+    {
+      image: Pimage,
+      star: Rstar,
+      name: "Product 10",
+      description: "Description 2",
+      price: "$29.99",
+    },
     // Add more card data as needed
   ];
 
@@ -85,12 +106,13 @@ const ProductSlider = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 900,
     slidesToShow: slidesToShow,
     slidesToScroll: 1,
     autoplay: true, // Enable autoplay
-    autoplaySpeed: 2000, // Set the autoplay speed in milliseconds (e.g., 3000ms = 3 seconds)
-  };
+    autoplaySpeed: 1000, // Set the autoplay speed in milliseconds
+};
+
 
   return (
     <Slider {...settings}>
